@@ -15,7 +15,7 @@ st.set_page_config(page_icon="📨", page_title="Email Sender Agent")
 import webbrowser    
 url='https://www.google.com'
 chrome_path="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
-webbrowser.register('chrome', None,webbrowser.BackgroundBrowser(chrome_path),1)
+webbrowser.register('chrome', None,webbrowser.BackgroundBrowser(chrome_path))
 webbrowser.get('chrome').open_new_tab(url)
 
 # Check if the user is logged in (using session state)
