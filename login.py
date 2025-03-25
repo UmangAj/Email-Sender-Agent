@@ -2,8 +2,8 @@ import streamlit as st
 from config import EMAIL_ID, PASSWORD
 
 # Set up initial variables (Email and password are defined in config)
-actual_email = EMAIL_ID
-actual_password = PASSWORD
+actual_email = st.secrets['EMAIL_ID']
+actual_password = st.secrets['PASSWORD']
 
 def login_page():
     """Displays a login form and validates user credentials."""
