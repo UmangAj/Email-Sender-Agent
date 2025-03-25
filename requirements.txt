@@ -1,0 +1,8 @@
+streamlit
+langchain_google_community
+langchain_groq
+dotenv
+langgraph
+langchain_core
+bleach
+
